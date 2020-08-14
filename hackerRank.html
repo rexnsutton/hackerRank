@@ -837,6 +837,22 @@ function sides(literals, ...expressions) {
     array =  array.sort(function (a,b) {return a-b;});
     return array;
 }
+DAY 5 ARROW FUNCTIONS:
+
+function modifyArray(nums) {
+    const func = nums.map(function(num) {
+
+        if (num % 2 == 0)
+            {
+                return 2*num;
+            }
+        else
+            {
+                return 3*num;
+            }
+    });
+    return func;
+}
 -->
 </body>
 </html>
