@@ -931,6 +931,12 @@ function regexVar() {
      */
     return re;
 }
+DAY 8 CREATE A BUTTON:
+var btn = document.getElementById("btn");
+	btn.addEventListener("click",function() {
+		var current_value = this.innerHTML;
+		this.innerHTML = parseInt(current_value)+1;
+	});
 
 
 
