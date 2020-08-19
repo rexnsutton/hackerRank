@@ -885,6 +885,39 @@ function getDayName(dateString) {
 
     return dayName;
 }
+
+DAY 7 REGULAR EXPRESSIONS 1:
+
+function regexVar() {
+    /*
+     * Declare a RegExp object variable named 're'
+     * It must match a string that starts and ends with the same vowel (i.e., {a, e, i, o, u})
+     */
+
+    var re = RegExp(/^([aeiou]).*\1$/);
+
+    /*
+     * Do not remove the return statement
+     */
+    return re;
+}
+
+DAY 7 REGULAR EXPRESSIONS 2:
+function regexVar() {
+    /*
+     * Declare a RegExp object variable named 're'
+     * It must match a string that starts with 'Mr.', 'Mrs.', 'Ms.', 'Dr.', or 'Er.',
+     * followed by one or more letters.
+     */
+     var re = (/^(Mr\.|Dr\.|Er\.|Ms\.|Mrs\.)\s?[a-z|A-Z]+$/);
+
+    /*
+     * Do not remove the return statement
+     */
+    return re;
+}
+
+
 -->
 </body>
 </html>
